@@ -2,7 +2,9 @@
 
 A Node.js project written using Express. EJS was used as the view engine.
 
-# Node JS version
+# Node JS version - Install these softwares
+
+
 ```sh
 node --version
 v14.21.3
@@ -29,8 +31,8 @@ You need to write the following commands on the terminal screen so that you can 
 1. git clone https://github.com/ashithss/docker-nodejs.git
 2. cd docker-nodejs
 3. docker build -t nodejsApp:latest .
-4. docker run --name node-app -it -p 5000:5000 -d nodejsApp:latest
-5. Your application will run in 5000 Port:- http://localhost:3005/
+4. docker run --name node-app -it -p 3005:3005 -d nodejsApp:latest
+5. Your application will run in 3005 Port:- http://localhost:3005/
 ```
 
 
